@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "allowJs": false,
+    "outDir": "./dist",
+    "baseUrl": "src",
+    "types": ["node", "webpack-env", "jest"],
+    "paths": {
+      "@src/*": ["./*"],
+      "~styles/*": ["./styles/*"],
+      "@components/*": ["./components/*"],
+      "@pages/*": ["./pages/*"]
+    },
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
