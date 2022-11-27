@@ -19,7 +19,6 @@
     "types": ["node", "webpack-env", "jest"],
     "paths": {
       "@src/*": ["./*"],
-      "~styles/*": ["./styles/*"],
       "@components/*": ["./components/*"],
       "@pages/*": ["./pages/*"]
     },
