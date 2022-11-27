@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint ./src/** --ext .ts,.js",
+    "lint": "eslint . --ext .ts,.js",
     "lint:fix": "npm run lint -- --fix",
     "lint:ts": "tsc --noEmit --pretty --project .",
     "prettier": "prettier --check .",

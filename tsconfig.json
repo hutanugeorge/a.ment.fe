@@ -18,9 +18,10 @@
     "baseUrl": "src",
     "types": ["node", "webpack-env", "jest"],
     "paths": {
-      "@src/*": ["./*"],
-      "@components/*": ["./components/*"],
-      "@pages/*": ["./pages/*"]
+      "@src/*": ["*"],
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@pages/*": ["pages/*"]
     },
     "jsx": "react"
   },
